@@ -1,0 +1,24 @@
+iother/
+├── README.md
+├── LICENSE
+├── Makefile
+├── src/
+│   ├── broker/
+│   │   ├── iother_broker.c
+│   │   └── iother_broker.h
+│   ├── client/
+│   │   ├── device_simulator.cpp
+│   │   ├── device_simulator.h
+│   │   └── main.cpp
+│   └── include/
+│       └── iother_common.h
+├── tools/
+│   └── dashboard.py
+├── config/
+│   └── iother.conf
+├── docs/
+│   └── API.md
+└── scripts/
+    ├── build.sh
+    ├── run.sh
+    └── test.sh
