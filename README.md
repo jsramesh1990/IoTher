@@ -1,4 +1,4 @@
-Here's the properly formatted README.md - just copy and paste this:
+
 
 ```markdown
 # 🌬️ IoTher - Virtual Sensor Simulation Platform
@@ -569,4 +569,3 @@ furnished to do so, subject to the following conditions...
 </div>
 ```
 
-Just copy this entire block and save as `README.md` - it will render perfectly on GitHub!
