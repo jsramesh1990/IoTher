@@ -542,13 +542,7 @@ furnished to do so, subject to the following conditions...
 - Open source community for tools and libraries
 - All contributors who help IoTher breathe
 
----
 
-## 📞 Contact & Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/iother/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/iother/discussions)
-- **Email**: iother@example.com
 
 ---
 
