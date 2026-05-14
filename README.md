@@ -10,7 +10,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -27,7 +27,7 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 **IoTher** is a production-grade, real-time IoT device simulator that implements MQTT-style publish/subscribe messaging. Built in C/C++, it allows developers to simulate complex IoT ecosystems with multiple devices, virtual sensors, and real-time data flow - all without requiring an internet connection or physical hardware.
 
@@ -35,24 +35,24 @@
 
 | Problem | IoTher Solution |
 |---------|----------------|
-| 💰 Expensive IoT hardware | Virtual sensors that behave like real ones |
-| 🌐 Internet dependency | Complete local simulation |
-| 🐌 Slow development cycles | Instant device spawning and testing |
-| 🔧 Complex debugging | Real-time terminal dashboard with colored output |
-| 📊 Limited testing scenarios | Unlimited virtual devices with configurable behaviors |
+|  Expensive IoT hardware | Virtual sensors that behave like real ones |
+|  Internet dependency | Complete local simulation |
+|  Slow development cycles | Instant device spawning and testing |
+|  Complex debugging | Real-time terminal dashboard with colored output |
+|  Limited testing scenarios | Unlimited virtual devices with configurable behaviors |
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core Capabilities
 
-- 🎯 **MQTT-Style Protocol**: Full publish/subscribe pattern with topic-based routing
-- 🌡️ **Virtual Sensors**: Temperature, humidity, pressure, light, motion, power consumption
-- 🔄 **Multi-Device Simulation**: Run 100+ devices simultaneously as threads
-- 📊 **Real-Time Dashboard**: Live monitoring with colored terminal output
-- 🔌 **Zero Internet**: Complete local simulation environment
-- 📝 **Comprehensive Logging**: All messages and metrics logged for analysis
+-  **MQTT-Style Protocol**: Full publish/subscribe pattern with topic-based routing
+-  **Virtual Sensors**: Temperature, humidity, pressure, light, motion, power consumption
+-  **Multi-Device Simulation**: Run 100+ devices simultaneously as threads
+-  **Real-Time Dashboard**: Live monitoring with colored terminal output
+-  **Zero Internet**: Complete local simulation environment
+-  **Comprehensive Logging**: All messages and metrics logged for analysis
 
 ### Technical Features
 
@@ -89,7 +89,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### System Overview
 
@@ -141,7 +141,7 @@ Device → Broker → Topic Match → Subscribers
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -187,7 +187,7 @@ make all
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Standard Installation
 
@@ -222,7 +222,7 @@ docker run -it iother:latest
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### Basic Commands
 
@@ -268,7 +268,7 @@ iother_start(device);
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Broker Configuration (`config/iother.conf`)
 
@@ -308,7 +308,7 @@ export IOTHER_CONFIG_PATH=/etc/iother/config
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 ### Broker API (C)
 
@@ -372,7 +372,7 @@ PING, PONG, STATUS, DISCONNECT
 
 ---
 
-## 💡 Examples
+##  Examples
 
 ### Example 1: Custom Temperature Sensor
 
@@ -429,7 +429,7 @@ while True:
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -464,7 +464,7 @@ ulimit -n 4096
 
 ---
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -476,7 +476,7 @@ ulimit -n 4096
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -515,36 +515,12 @@ valgrind --leak-check=full ./src/broker/iother_broker
 
 ---
 
-## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-```
-MIT License
-
-Copyright (c) 2024 IoTher Contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions...
-```
-
----
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - MQTT Protocol Specification for inspiration
 - Open source community for tools and libraries
 - All contributors who help IoTher breathe
-
----
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/iother&type=Date)](https://star-history.com/#yourusername/iother&Date)
 
 ---
 
@@ -559,13 +535,3 @@ furnished to do so, subject to the following conditions...
 </div>
 ```
 
-This is a complete, production-ready README file that you can save as `README.md` in your project root directory. It includes:
-
-1. **Professional formatting** with badges and emojis
-2. **Comprehensive documentation** covering all aspects
-3. **Working code examples** in C, C++, and Python
-4. **Troubleshooting guides** and performance metrics
-5. **Clear structure** with table of contents
-6. **Contributing guidelines** and license information
-
-Just replace `yourusername` with your actual GitHub username in the clone URLs and star history links.
