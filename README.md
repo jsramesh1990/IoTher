@@ -95,25 +95,25 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                         TERMINAL UI                          │
+│                         TERMINAL UI                         │
 │  ┌──────────────────────────────────────────────────────┐   │
-│  │              IoTher Dashboard (Optional)              │   │
+│  │              IoTher Dashboard (Optional)             │   │
 │  └──────────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────┘
                               ▲
                               │ WebSocket/HTTP
                               │
 ┌─────────────────────────────────────────────────────────────┐
-│                      MQTT-STYLE BROKER                       │
-│  ┌────────────┐  ┌────────────┐  ┌────────────┐            │
-│  │ Connection │  │  Topic     │  │  Message   │            │
-│  │   Manager  │  │   Router   │  │   Queue    │            │
-│  └────────────┘  └────────────┘  └────────────┘            │
+│                      MQTT-STYLE BROKER                      │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐             │
+│  │ Connection │  │  Topic     │  │  Message   │             │
+│  │   Manager  │  │   Router   │  │   Queue    │             │
+│  └────────────┘  └────────────┘  └────────────┘             │
 │         │              │               │                    │
 │         ▼              ▼               ▼                    │
-│  ┌──────────────────────────────────────────┐              │
-│  │         Thread Pool (100 clients)        │              │
-│  └──────────────────────────────────────────┘              │
+│  ┌──────────────────────────────────────────┐               │
+│  │         Thread Pool (100 clients)        │               │
+│  └──────────────────────────────────────────┘               │
 └─────────────────────────────────────────────────────────────┘
           │              │              │              │
           ▼              ▼              ▼              ▼
@@ -515,7 +515,6 @@ valgrind --leak-check=full ./src/broker/iother_broker
 
 ---
 
-
 ##  Acknowledgments
 
 - MQTT Protocol Specification for inspiration
@@ -529,8 +528,6 @@ valgrind --leak-check=full ./src/broker/iother_broker
 **Made with ❤️ for the IoT community**
 
 *Let your devices breathe with IoTher*
-
-[Report Bug](https://github.com/yourusername/iother/issues) · [Request Feature](https://github.com/yourusername/iother/issues) · [Star on GitHub](https://github.com/yourusername/iother)
 
 </div>
 ```
