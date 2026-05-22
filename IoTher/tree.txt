@@ -1,6 +1,5 @@
 iother/
 ├── README.md
-├── LICENSE
 ├── Makefile
 ├── src/
 │   ├── broker/
